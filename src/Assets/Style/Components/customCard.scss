@@ -1,0 +1,31 @@
+.custom-card {
+    border-radius: 0.5rem;
+    border: 1px solid #d6eafa;
+    .card-body {
+        .count {
+            color: #000;
+        }
+        .sub-text {
+            color: #7d7d7d;
+        }
+        .title {
+            color: #b3b4b5
+        }
+    }
+    .custom-card-footer {
+        background-color: #eaf2fa;
+        .footer-text {
+            font-size: 0.875rem;
+            color: #4e84c2;
+        }
+        .footer-icon {
+            color: #4e84c2;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.alert-card {
+    background-color: #fef7d7;
+    color: #be7f00
+}

@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import {store} from "./Helpers";
 import { Provider } from "react-redux";
 import ErrorBoundary from "./Components/ErrorBoundary";
+import "./Assets/Icomoon/style.css";
 import "./Assets/Style/main.scss";
 
 export const App = (props) => {

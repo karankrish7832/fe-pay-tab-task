@@ -4,3 +4,18 @@
         font-weight: 600;
     }
 }
+
+.transanc-dashboard {
+    background-color: #f2f7fb;
+    min-height: 100vh;
+    .transac-dashboard-table {
+        .table {
+            thead {
+                th {
+                    background-color: #dedede;
+                    color: #3b3945;
+                }
+            }
+        }
+    }
+}

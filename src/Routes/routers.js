@@ -1,7 +1,7 @@
 let routers = [
     {
         path: "*",
-        redirect: "/home/transaction-dashboard"
+        redirect: "/transac-dashboard"
     },
     {
         path: "/home",
@@ -14,6 +14,11 @@ let routers = [
                 element: "TransactionDashboard"
             }
         ]
+    },
+    {
+        path: "/transac-dashboard",
+        exact: false,
+        element: "TransancDashboard",
     }
 ]
 
