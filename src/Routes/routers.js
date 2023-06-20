@@ -17,7 +17,7 @@ let routers = [
     },
     {
         path: "/transac-dashboard",
-        exact: false,
+        exact: true,
         element: "TransancDashboard",
     }
 ]

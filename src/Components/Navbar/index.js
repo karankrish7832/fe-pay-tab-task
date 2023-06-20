@@ -22,13 +22,13 @@ export const Navbar = (props) => {
     const show = (isMenuOpen) ? "show" : "" ;
     return (
         <nav className="main-nav-bar navbar navbar-expand-lg navbar-light bg-light-purple">
-            {
+            {/* {
                 isShowNavBrand ? 
                     <Link className="navbar-brand" to="/home/transaction-dashboard">
                         <img src={logo} alt="logo" className="logo"/>
                     </Link>
                 : ''
-            }
+            } */}
             <button 
                 className="navbar-toggler" 
                 type="button" 

@@ -2,7 +2,7 @@ import {Card, CardBody, CardFooter} from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 export const CustomCard = (props) => {
-    const { count = 0, subText = '', title = '', footerText = 'VIEW DETAILS', footerIcon = 'icon-next', link='/' } = props;
+    const { count = 0, subText = '', title = '', footerText = 'VIEW DETAILS', footerIcon = 'icon-next', link='/home/transaction-dashboard' } = props;
     return (
         <Card className='custom-card mt-3 shadow'>
             <CardBody>

@@ -107,7 +107,7 @@ export const TransancDashboard = (props) => {
                         content={
                             <>
                                 In order to complete your merchant application, please go to the 
-                                <Link to='/' className="text-decoration-none"> Onbording </Link>
+                                <Link to='/home/transaction-dashboard' className="text-decoration-none"> Onbording </Link>
                                 section and provide the required details.
                             </>
                         }
